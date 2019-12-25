@@ -45,7 +45,7 @@ code {
 }
 
 .wrap {
-  overflow: hidden;
+  /* overflow: hidden; */
   position: relative;
   width: 200px;
   height: 200px;
@@ -55,13 +55,13 @@ code {
 .minute,
 .hour {
   position: absolute;
-  height: 100px;
+  height: 80px;
   width: 6px;
   margin: auto;
-  top: -30%;
+  top: -23%;
   left: 0;
   bottom: 0;
-  right: -18%;
+  right: -19%;
   background: black;
   transform-origin: bottom center;
   transform: rotate(0deg);
